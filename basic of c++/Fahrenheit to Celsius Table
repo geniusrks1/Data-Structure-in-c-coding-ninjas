@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+
+    int start,end,step;
+	cin>>start>>end>>step;
+	while(start<=end){
+		int cel=5*(start-32)/9;
+		cout<<start<<" "<<cel<<endl;
+		start+=step;
+	}
+  
+}
